@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon portofolio</title>
+    <link rel="stylesheet" href="../css/monportofolio.css">
+</head>
+<body>
+    <section id="menucache">
+        <div id="mainmenu">
+            <h1>Menu</h1>
+            <a href="../html/monportofolio.html">Accueil</a>
+            <a href="../html/proposbeze.html">A propos</a>
+            <a href="../html/compet.html">Compétences</a>
+        </div>
+        <div id="black"></div>
+    </section>
+    <section class="principal">
+        <header>
+            <div class="name">
+                <h1><span>B</span>EZE <span>D</span>an</h1>
+            </div>
+            <nav class="barnav">
+                <a href="../html/monportofolio.html">Accueil</a>
+                <a href="../html/proposbeze.html">A propos</a>
+                <a href="../html/compet.html">Compétences</a>
+            </nav>
+            <button id="btnmenu">Menu</button>
+        </header>
+    </section>
+    <section class="present">
+        <div class="one">
+            <p>Hello,</p>
+            <h2>I am <br> Dan Beze</h2>
+            <p>Data scientist</p>
+            <button><a href="#about">consulter</a></button>
+        </div>
+        <div class="img">
+            <img src="../img/danhonorable.jpg" alt="img" width="250px" height="400px" style="border-radius: 220px;">
+        </div>
+    </section>
+    <section class="about">
+        <div class="pres1">
+            <img src="/img/dancasque.jpg" alt="img" width="350px" height="400px" style="border-radius: 170px   30px 30px 0px;" >
+        </div>
+        <div class="pres2">
+            <h2 id="about">About Me</h2>
+            <p>DAN BEZE MBO né le seizième jour du mois de janvier de l'année 2007 est un jeune garçon 
+                vivant en république démocratique du congo faisant actuellement ses études universitaires
+                à l'université protestante au congo.Diplomé d'état en 2024 au complexe scolaire cardinal malula
+                avec un pourcentage de 80% ;dan ne savant où s'orienter demande des conseils et c'est là 
+                qu'il se trouve une passion pour l'informatique et il ne cesse de s'améliorer jour après jour par 
+                la grace de Dieu.
+            </p>
+            <button><a href="../html/proposbeze.html">consulter</a></button>
+        </div>
+    </section>
+    <section class="ability">
+            <div class="pres3">
+                <h2>Mes compétences</h2>
+                <p>
+                    il s'avère que j'ai des compétences en programmation web 
+                    en manipulant le html et le css ;
+                    avec un niveau intermediaire en python.
+                </p>
+                <button><a href="../html/compet.html">consulter</a></button>
+            </div>
+            <div class="pres33">
+                <div class="pres333">
+                    <div class="cmp" >
+                        <img src="../img/html.jpg" alt="imghtml" width="100px">
+                        <p>HTML</p>
+                    </div>
+                    <div class="vide">
+                        <p ></p>
+                    </div>
+                </div>
+                <div class="pres333">
+                    <div class="cmp">
+                        <img src="../img/css.jpg" alt="img" width="100px">
+                        <p>CSS</p>
+                    </div>
+                    <div class="vide">
+                        <p></p>
+                    </div class="vide">
+                </div>
+                <div class="pres333">
+                    <div class="cmp">
+                        <img src="../img/python.jpg" alt="img" width="100px" height="120px">
+                        <p>PYTHON</p>
+                    </div>
+                    <div class="vide">
+                        <P></P>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <h2>My portofolio</h2>
+        <h4>By DAN B.</h4>
+    </footer>
+    <script>
+     const bouton = document.getElementById("btnmenu");
+     const menucache = document.getElementById("menucache");
+     const main=document.getElementById("mainmenu")
+     const partb=document.getElementById("black");
+     bouton.addEventListener("click", function () {
+        menucache.style.display = "flex";
+     });
+    partb.addEventListener("click",function(){
+        menucache.style.display="none";
+
+    })
+</script>
+</body>
+</html>

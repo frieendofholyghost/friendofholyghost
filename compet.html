@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compétences</title>
+    <link rel="stylesheet" href="/css/compet.css">
+</head>
+<body>
+    <section id="menucache">
+        <div id="mainmenu">
+            <h1>Menu</h1>
+            <a href="../html/monportofolio.html">Accueil</a>
+            <a href="../html/proposbeze.html">A propos</a>
+            <a href="../html/compet.html">Compétences</a>
+        </div>
+        <div id="black"></div>
+    </section>
+    <section class="principal">
+        <header>
+            <div class="name">
+                <h1><span>B</span>EZE <span>D</span>an</h1>
+            </div>
+            <nav class="barnav">
+                <a href="../html/monportofolio.html">Accueil</a>
+                <a href="../html/proposbeze.html">A propos</a>
+                <a href="../html/compet.html">Compétences</a>
+            </nav>
+            <button id="btnmenu">Menu</button>
+        </header>
+    </section>
+    <section class="sec1">
+       <div class="div1">
+           <h3>voulez vous connaitre mes compétences?</h3>
+           <p>
+            Alors let's check it
+           </p>
+       </div>
+       <div class="div2">
+         <img src="/img/dancagoule.jpg" alt="danupc" width="250px">
+       </div>
+    </section>
+    <section class="intro2">
+        <p> Mes compétences:</p>
+    </section>
+    <section class="sortes">
+        <div class="python">
+            <img src="/img/python.jpg" alt="python" width="250px" height="250px">
+            <figcaption>Niveau intermédiaire en python</figcaption>
+        </div>
+        <div class="html">
+            <img src="/img/html.jpg" alt="html" width="250px">
+            <FIgcaption>Maitrise du html</FIgcaption>
+        </div>
+        <div class="css">
+            <img src="/img/css.jpg" alt="css" width="250px">
+            <figcaption>Maitrise du css</figcaption>
+        </div>
+    </section>
+    <footer>
+        <h2>My portofolio</h2>
+        <h4>By DAN B.</h4>
+    </footer>
+    <script>
+     const bouton = document.getElementById("btnmenu");
+     const menucache = document.getElementById("menucache");
+     const main=document.getElementById("mainmenu")
+     const partb=document.getElementById("black");
+     bouton.addEventListener("click", function () {
+        menucache.style.display = "flex";
+     });
+    partb.addEventListener("click",function(){
+        menucache.style.display="none";
+
+    })
+</script>
+</body>
+</html>

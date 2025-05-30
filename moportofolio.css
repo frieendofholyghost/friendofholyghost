@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#menucache{
+    display: none;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    h1{
+        font-size: 50px;
+        color: blue;
+
+    }
+    a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        color:blue;
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    #mainmenu{
+        width: 50%;
+    }
+    #black{
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+}
+#btnmenu{
+    display:none ;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+}
+.name{
+    span{
+        color: blue;
+        font-size:  60px;
+    }
+    margin-right: 800px;
+    margin-top: 0.5%;
+    padding-top: 2px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    width: 10%;
+    height: 50%;
+    font-weight: bold;
+}
+.barnav{
+    display: flex;
+    text-decoration: none;
+    margin-right: 80px;
+    a{
+        text-decoration: none;
+        padding-right: 30px;
+        padding-top: 30px;
+        color: blue;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+}
+.present{
+    background-color: lightgray;
+    display: flex;
+    height: 500px;
+}
+.one{
+    width: 70%;
+    padding: 10%;
+    padding-left: 15%;
+    p{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 80px;
+        color: blue;
+    }
+    button{
+        background-color: blue;
+        border-radius: 20px ;
+        margin-top: 2%;
+        width: 20%;
+        height: 20%;
+        a{
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+}
+.img{
+    
+    margin-top: 6%;
+    border-radius:10%;
+
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/blob.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+.pres1{
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 7%;
+}
+.pres2{
+    width: 70%;
+    padding-top: 10%;
+    padding-left: 3%;
+    h2{
+        color: blue;
+        font-size: 80px;
+    }
+    p{
+        width: 70%;
+        font-size: 20px;
+    }
+    button{
+        background-color: blue;
+        border-radius: 20px ;
+        margin-top: 2%;
+        width: 13%;
+        height: 13%;
+        a{
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+}
+.ability{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.pres3{
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 7%;
+    h2{
+        color: blue;
+        font-size: 40px;
+        padding-left: 8%;
+    }
+    p{  
+        width: 100%;
+        height: 190px;
+        font-size: 20px;
+    }
+    button{
+        background-color: blue;
+        border-radius: 20px ;
+        margin-top: 2%;
+        width: 40%;
+        height: 10%;
+        margin-left:180px;
+        a{
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+}
+.pres33{
+    padding-left: 3%;
+}
+.pres333{
+    width: 200%;
+    height: 170px;
+    background-color:rgba(0, 0, 177, 1);
+    margin-top: 20px;
+    justify-items: center;
+    padding-top: 10%;
+    p{
+        color: blue;
+        font-size: 40px;
+        padding-top: 12%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .vide{
+        color: white;
+    }
+    
+}
+.cmp{
+    display: flex;
+    padding-right: 30px;
+    background-color: white;
+}
+footer{
+    position: absolute;
+    z-index: 1000;
+    height: 250px;
+    background-color: lightgrey;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+    color: blue;
+    padding-top: 3%;
+    h2{
+        font-size: 80px;
+    }
+    h4{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+}
+@media (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+    .name{
+        span{
+            color: blue;
+            font-size:  30px;
+        }
+        margin-right: 800px;
+        margin-top: 0.5%;
+        padding-top: 2px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        width: 10%;
+        height: 50%;
+        font-weight: bold;
+    }
+    .barnav{
+        display: none;
+    }
+    #btnmenu{
+        display: flex;
+        position: absolute;
+        width: 20%;
+        height: 30px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 70%;
+        padding-left: 5%;
+        border-radius: 15px;
+        background-color: blue;
+        padding-top: 1%;
+        color: white;
+        font-size: 20px;
+        
+    }
+    .present{
+        background-color: lightgray;
+        display: flex;
+        height: 300px;
+        .img{
+            img{
+                width: 150px;
+                height: 170px;
+                padding-top: 9%;
+            }
+        }
+    }
+    .one{
+        width:  50%;
+        padding: 3%;
+        padding-left: 5%;
+        padding-top: 10%;
+        p{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 30px;
+            color: blue;
+        }
+        button{
+            background-color: blue;
+            border-radius: 20px ;
+            margin-top: 10%;
+            width: 50%;
+            height: 10%;
+            a{
+                background-color: blue;
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+    }
+    .about{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        background-image: url(../img/blob.svg);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 1%;
+        
+    }
+    .pres1{
+        width:40%;
+        padding-top: 4%;
+        padding-left: 2%;
+        img{
+            width: 200px;
+            height: 40%;
+            padding-top: 50px;
+
+    }
+    .pres2{
+        width: 40%;
+        height: 20%;
+        padding-top: 15%;
+        padding-left: 3%;
+        h2{
+            color: blue;
+            font-size: 10px;
+            width: 100%;
+        }
+        p{
+            width:10%;
+            height: 30px;
+            font-size: 10px;
+        }img{
+            position: absolute;
+        }
+        button{
+            display: none;
+            background-color: blue;
+            position: absolute;
+            width: 13%;
+            height: 13%;
+            padding: 10%;
+            a{
+                background-color: blue;
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.ability{
+    height: 500px;
+    width: 100%;
+}
+.pres3{
+    width: 100%;
+    padding-top: 100%;
+    padding-left: 7%;
+    h2{
+        color: blue;
+        font-size: 40px;
+        padding-left: 8%;
+    }
+    p{  
+        width: 100%;
+        height: 190px;
+        font-size: 20px;
+    }
+    button{
+        background-color: blue;
+        border-radius: 20px ;
+        width: 40%;
+        height: 10%;
+        margin-bottom: 30%;
+        margin-left:180px;
+        a{
+            background-color: blue;
+
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+}
+.pres33{
+    width: 100%;
+    height: 30%;
+    margin-top: 120%;
+    margin-right: 40%;
+}
+.pres333{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    height: 170px;
+    margin-top: 100%;
+    justify-items: center;
+    p{
+        color: blue;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    
+}
+.cmp{
+    display: none;
+}
+footer{
+    position: absolute;
+    z-index: 1000;
+    height: 250px;
+    background-color: lightgrey;
+    width: 100%;
+    margin-top: 250%;
+    text-align: center;
+    color: blue;
+    padding-top: 3%;
+    h2{
+        font-size: 80px;
+    }
+    h4{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+}
+
+}
